@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting...</title>
+  <script>
+    const isAuthenticated = JSON.parse(localStorage.getItem("currentAccount") || 'null');
+
+    if (isAuthenticated) {
+      window.location.href = "/user/home.html";
+    } else {
+      window.location.href = "/guest/home.html";
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>

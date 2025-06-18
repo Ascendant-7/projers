@@ -21,7 +21,7 @@ form.addEventListener('submit', (e) => {
         error.classList.remove('hidden');
         return;
     }
-    window.location.href = '/home.html';
+    window.location.href = '/user/home.html';
 });
 
 function resetField() {

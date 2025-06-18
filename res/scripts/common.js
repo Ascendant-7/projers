@@ -21,6 +21,7 @@ fontawesome.src = "https://kit.fontawesome.com/0cd5198f8f.js";
 fontawesome.crossOrigin = "anonymous";
 head.append(fontawesome);
 
-const style = document.createElement("style");
-style.innerHTML = ".inter { font-family: 'Inter', sans-serif; }";
+const style = document.createElement("link");
+style.rel = "stylesheet";
+style.href = "/res/stylesheets/style.css";
 head.append(style);

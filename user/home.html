@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projers - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/res/scripts/common.js" defer></script>
+</head>
+<body class="inter">
+    <header class="h-[60px] shadow-md flex items-center justify-between px-20">
+        <h1 id="logo" class="font-bold text-[24px] text-blue-500"><a href="home.html">Projers</a></h1>
+        <!-- <nav class="h-full flex items-center">
+            <ul class="flex text-[21px] h-full items-center">
+                <li class="h-full flex items-center px-5 hover:bg-blue-500 hover:text-white transition duration-300"><a href="" class="h-full flex items-center">Teams</a></li>
+                <li class="h-full flex items-center px-5 hover:bg-blue-500 hover:text-white transition duration-300"><a href="" class="h-full flex items-center">Projects</a></li>
+            </ul>
+        </nav> -->
+        <div class="h-full flex items-center px-5"><a href="profile.html"><i class="fa-solid fa-circle-user text-3xl hover:text-blue-500 transition duration-300"></i></a></div>
+    </header>
+    <main class="flex flex-col items-center mt-10">
+        <h1 class="font-bold text-xl">Welcome Back.</h1>
+        <p>check up on your projects.</p>
+        <div id="project-selection" class="w-full p-5 flex flex-col gap-2">
+            <h1 class="font-bold text-xl">Projects</h1>
+            <div id="project-row" class="flex gap-3 flex-col md:flex-row">
+                <a href="" class="card lg:w-[12.5%] md:w-1/4  bg-white flex md:flex-col">
+                    <div class="w-1/4 md:w-full aspect-[16/9] overflow-hidden"><img src="/res/images/web-design.jpg" alt="web-design"></div>
+                    <div class="p-2">
+                        <h2>Web Design</h2>
+                        <p class="text-gray-400 text-sm">8 members</p>
+                    </div>
+                </a>
+                <a href="" class="card lg:w-[12.5%] md:w-1/4 bg-white flex md:flex-col">
+                    <div class="w-1/4 md:w-full aspect-[16/9] overflow-hidden"><img src="/res/images/automaton.jpg" alt="automaton" class="transform -translate-y-[25%]"></div>
+                    <div class="p-2">
+                        <h2>Automaton</h2>
+                        <p class="text-gray-400 text-sm">6 members</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

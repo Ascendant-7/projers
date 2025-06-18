@@ -42,7 +42,7 @@ form.addEventListener('submit', (e) => {
     };
     accountList.push(data);
     localStorage.setItem('accounts', JSON.stringify(accountList));
-    window.location.href = '/login.html';
+    window.location.href = 'login.html';
 });
 
 function isMatched() {

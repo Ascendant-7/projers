@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projers - Home</title>
+    <title>Projers - Guest</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="common.js" defer></script>
+    <script src="/res/scripts/common.js" defer></script>
 </head>
 <body class="inter">
     <header class="h-[80px] shadow-md flex items-center justify-evenly">
-        <h1 id="logo" class="font-bold text-[32px]">Projers</h1>
+        <h1 id="logo" class="font-bold text-[32px] text-blue-500">Projers</h1>
         <nav class="h-full flex items-center">
             <ul class="flex text-[21px] h-full items-center">
-                <li class="h-full flex items-center px-5 hover:bg-blue-500 hover:text-white transition duration-300"><a href="/signup.html" class="h-full flex items-center">Signup</a></li>
-                <li class="h-full flex items-center px-5 hover:bg-blue-500 hover:text-white transition duration-300"><a href="/login.html" class="h-full flex items-center">Login</a></li>
+                <li class="h-full flex items-center px-5 hover:bg-blue-500 hover:text-white transition duration-300"><a href="signup.html" class="h-full flex items-center">Signup</a></li>
+                <li class="h-full flex items-center px-5 hover:bg-blue-500 hover:text-white transition duration-300"><a href="login.html" class="h-full flex items-center">Login</a></li>
             </ul>
         </nav>
     </header>
     <main class="flex p-10 justify-center gap-10">
         <section class="flex flex-col justify-center">
-            <h1 class="text-[40px] font-bold">Projers</h1>
+            <h1 class="text-[40px] font-bold text-blue-500">Projers</h1>
             <p>Create your team, divide tasks and track your progress together.</p>
-            <form class="my-5" action="/signup.html">
+            <form class="my-5" action="signup.html">
                 <label for="user-email">Email <i class="fa-solid fa-envelope"></i></label>
                 <div id="email-field" class="flex gap-2 flex-col sm:flex-row">
                     <input type="email" id="email" name="email" placeholder="you@example.com"
@@ -30,7 +30,7 @@
                 </div>
             </form>
         </section>
-        <img src="hand-writing-in-clipboard-free-vector.jpg" class="w-1/3">
+        <img src="/res/images/hand-writing-in-clipboard-free-vector.jpg" class="w-1/3">
     </main>
     <footer>
 
