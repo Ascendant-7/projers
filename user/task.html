@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/res/scripts/common.js"></script>
+</head>
+<body>
+    <main class="flex flex-col items-center p-10 gap-2">
+        <div class="flex items-center w-full">
+            <a href="project.html"><i class="fa-solid fa-arrow-left text-xl"></i></a>
+            <div class="m-auto text-center">
+                <h1 id="task-title" class="text-[24px] font-bold m-auto"></h1>
+                <p class="text-gray-400">Assigned to Ang Panha (You)</p>
+            </div>
+        </div>
+        <section class="flex flex-col gap-2">
+            <section class="bg-gray-100 flex flex-col gap-2 p-5">
+                <div class="flex items-center gap-2">
+                    Status:
+                    <div class="bg-green-500 px-2 py-1 rounded text-white">Done</div>
+                </div>
+                <div class="flex items-center gap-2">
+                    Difficulty:
+                    <div class="bg-green-500 px-2 py-1 rounded text-white">Easy</div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-clock text-xl"></i>
+                    Duration: May 11 2025 <i class="fa-solid fa-arrow-right"></i> May 22 2025
+                </div>
+                <div>
+                    Details:<br>
+                    Create your user interface design using Figma. Your design should:
+                    <ul class="list-disc list-inside">
+                        <li>Match your users' needs</li>
+                        <li>Include layouts for at least 5 pages</li>
+                        <li>Show how your site looks on desktop and mobile (responsive design)</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="flex gap-2">
+                <div class="bg-gray-100 flex flex-col items-end gap-2 p-5">
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-file text-xl"></i>
+                        <button class="bg-blue-500 text-white w-[80px] p-2 rounded hover:bg-blue-600">Add File</button>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-at text-xl"></i>
+                        <button class="bg-blue-500 text-white w-[80px] p-2 rounded hover:bg-blue-600">Add Link</button>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-check text-xl"></i>
+                        <button class="bg-blue-500 text-white w-[80px] p-2 rounded hover:bg-blue-600">Resubmit</button>
+                    </div><div class="flex items-center gap-2">
+                        <i class="fa-solid fa-pen-to-square text-xl"></i>
+                        <button class="bg-blue-500 text-white w-[80px] p-2 rounded hover:bg-blue-600">Edit</button>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-2">
+                    <div class="bg-gray-100 flex items-center gap-2 p-5 h-fit">
+                        <i class="fa-solid fa-file text-xl"></i> No File Added
+                    </div>
+                    <div class="bg-gray-100 flex items-center gap-2 p-5 h-fit">
+                        <img src="/res/images/figma.svg">
+                        <a href="https://www.figma.com/design/MwsyCGZOIuxwCTIl1if8Wz/Projers?node-id=77-477&t=b4jazu1b56ta4CYq-0"
+                        class="text-blue-500 hover:underline">
+                            Figma
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="/res/scripts/header.js"></script>
+    <script src="/res/scripts/task.js"></script>
+    <script>addProfile()</script>
+</body>
+</html>

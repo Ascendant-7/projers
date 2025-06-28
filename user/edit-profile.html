@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projers - Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/res/scripts/common.js"></script>
+</head>
+<body class="inter">
+    <main class="flex flex-col items-center">
+        <div class="
+            relative
+            w-full
+            custom-shadow
+            lg:pb-32
+        ">
+            <div class="overflow-hidden relative">
+                <img src="/res/images/placeholder.webp" alt="placeholder" class="
+                    object-cover max-h-[180px] lg:max-h-[240px] w-full
+                ">
+                <div class="bg-black opacity-50 absolute inset-0 pointer-events-none"></div>
+                <button class="
+                    absolute 
+                    top-[20%] 
+                    left-[50%] 
+                    transform -translate-x-[50%] 
+                    lg:top-[50%]
+                    lg:-translate-y-[50%]
+                    button
+                ">Change Cover Photo</button>
+            </div>
+            <div class="
+                w-[120px]
+                absolute
+                top-[25%]
+                left-[50%]
+                transform -translate-x-[50%]
+                lg:left-[200px]
+                lg:-translate-x-[0%]
+                lg:top-[50%]
+                lg:w-[160px]
+            ">
+                <img src="/res/images/me.jpg" class="
+                    rounded-full
+                    aspect-square
+                    object-cover
+                    object-top
+                ">
+            </div>
+            <button class="absolute left-[52%] lg:left-[310px] lg:bottom-[20px] z-10">
+                <i class="fa-solid fa-pen-to-square bg-white custom-shadow text-blue-500 p-2 rounded-full"></i>
+            </button>
+            <a href="home.html"><i class="fa-solid fa-arrow-left text-xl absolute left-[40px] top-[60%] lg:top-[72%] z-10"></i></a>
+            <div class="
+                flex 
+                flex-col 
+                items-center 
+                text-center 
+                pt-8 pb-5
+                
+                lg:absolute
+                lg:bottom-[-3%]
+                lg:left-[380px]
+                transform
+                lg:text-left
+                
+            ">
+                <h1 class="w-full text-2xl font-bold"><i class='fa-solid fa-arrow-left'></i>Ang Panha</h1>
+                <h2 class="w-full text-lg text-gray-400">Ascendant</h2>
+                <a href="profile.html" class="button-2 custom-shadow mt-2">save changes</a>
+            </div>
+        </div>
+        <div class="w-full flex flex-col lg:flex-row">
+            <div class="flex-grow">
+                <div class="px-10 py-5 border-b-2 border-gray-200">
+                    <h1 class="text-2xl font-bold">Contact</h1>
+                    <div class="w-fit flex flex-col gap-2">
+                        <div class="flex gap-2 items-center">
+                            <i class="fa-solid fa-envelope text-xl"></i>
+                            Email:
+                            <a id="email-link" href="mailto:angpanha2019@gmail.com" class="link">
+                                angpanha2019@gmail.com
+                            </a>
+                            <button class="self-end">
+                                <i class="
+                                    fa-solid
+                                    fa-pen-to-square
+                                    bg-white
+                                    custom-shadow
+                                    text-blue-500
+                                    p-2
+                                    rounded-full
+                                "></i>
+                            </button>
+                        </div>
+                        <div class="flex gap-2 items-center">
+                            <i class="fa-solid fa-phone text-xl"></i>
+                            Phone:
+                            <span id="user-phone">
+                                (+855) 77505563
+                            </span>
+                            <button class="ml-auto">
+                                <i class="
+                                    fa-solid
+                                    fa-pen-to-square
+                                    bg-white
+                                    custom-shadow
+                                    text-blue-500
+                                    p-2
+                                    rounded-full
+                                "></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-10 py-5 border-b-2 border-gray-200 flex flex-col">
+                    <div class="flex gap-2">
+                        <h1 class="text-2xl font-bold">Social</h1>
+                        <button><i class="fa-solid fa-circle-plus text-blue-500 text-xl"></i></button>
+                    </div>
+                    <div class="flex flex-col w-fit gap-2">
+                        <div class="flex gap-2 items-center">
+                            <i class="fa-brands fa-facebook text-xl"></i>
+                            Facebook:
+                            <a id="email-link" href="mailto:angpanha2019@gmail.com" class="link">
+                                angpanha2019@gmail.com
+                            </a>
+                            <button class="ml-auto">
+                                <i class="fa-solid fa-circle-minus text-red-500 text-xl"></i>
+                            </button>
+                        </div>
+                        <div class="flex gap-2 items-center">
+                            <i class="fa-brands fa-github text-xl"></i>
+                            Github:
+                            <span id="user-phone">
+                                (+855) 77505563
+                            </span>
+                            <button class="ml-auto">
+                                <i class="fa-solid fa-circle-minus text-red-500 text-xl"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="px-10 py-5 border-b-2 border-gray-200 overflow-x-auto">
+                <table class="border-2 border-black table-auto">
+                    <tr class="text-2xl font-bold text-center">
+                        <th class="px-10 py-2">Projects</th>
+                        <th class="px-10 py-2">Contribution Points</th>
+                        <th class="px-10 py-2">Tasks</th>
+                    </tr>
+                    <tr>
+                        <td class="px-10 py-2"><a href="" class="text-blue-500 hover:underline">Web Design</a></td>
+                        <td class="px-10 py-2 text-right">1001</td>
+                        <td class="px-10 py-2 text-right">3</td>
+                    </tr>
+                    <tr>
+                        <td class="px-10 py-2"><a href="" class="text-blue-500 hover:underline">Automaton</a></td>
+                        <td class="px-10 py-2 text-right">20041</td>
+                        <td class="px-10 py-2 text-right">6</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </main>
+    <script src="/res/scripts/header.js"></script>
+    <script>addSignout()</script>
+</body>
+</html>

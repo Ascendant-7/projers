@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/res/scripts/common.js"></script>
+</head>
+<body class="inter">
+    <main class="flex flex-col items-center p-10 gap-2">
+        <div class="flex items-center w-full">
+            <a href="home.html"><i class="fa-solid fa-arrow-left text-xl"></i></a>
+            <h1 id="project-name" class="text-[24px] font-bold m-auto"></h1>
+        </div>
+        <div class="bg-gray-300 w-[400px] h-3 rounded-full">
+            <div class="bg-green-500 w-3/4 h-full rounded-full"></div>
+        </div>
+        <p class="text-gray-400">3/4 Tasks Completed</p>
+        <div class="flex justify-between items-center self-start">
+            <h2 class="text-[18px] font-bold">Tasks <button class="bg-blue-500 text-white w-[25px] aspect-square rounded"><i class="fa-solid fa-plus"></i></button></h2>
+        </div>
+        <section class="w-full flex gap-2">
+            <section id="tasks" class="w-full flex gap-2 flex-col sm:flex-row">
+                <div class="flex-grow">
+                    
+                    <div>
+                        <div id="task-selection" class="flex gap-3 flex-col md:flex-row flex-wrap"></div>
+                    </div>
+                </div>
+                <div id="project-members" class="flex flex-col custom-shadow bg-white p-2 h-fit gap-2">
+                    <h2 class="text-2xl font-bold">Members</h2>
+                    <ul class="flex flex-col gap-2">
+                        <li class="flex gap-2 whitespace-nowrap truncate"><i class="fa-solid fa-circle-user icon"></i><p>Ang Panha</p></li>
+                        <li class="flex gap-2 whitespace-nowrap truncate"><i class="fa-solid fa-circle-user icon"></i><p>Ang Panha</p></li>
+                        <li class="flex gap-2 whitespace-nowrap truncate"><i class="fa-solid fa-circle-user icon"></i><p>Ang Panha</p></li>
+                        <li class="flex gap-2 whitespace-nowrap truncate"><i class="fa-solid fa-circle-user icon"></i><p>Ang Panha</p></li>
+                    </ul>
+                </div>
+            </section>
+            
+        </section>
+    </main>
+    <script src="/res/scripts/header.js"></script>
+    <script type="module" src="/res/scripts/project.js"></script>
+    <script>addProfile()</script>
+</body>
+</html>
